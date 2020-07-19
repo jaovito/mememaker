@@ -7,12 +7,15 @@ export const Wrapper = styled.div `
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    
     
 `
 
 export const Card = styled.div `
     background: #fff;
-    width: 550px;
+    max-width: 550px;
+    width: 90%;
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
@@ -22,6 +25,12 @@ export const Card = styled.div `
         font-size: 22px;
         color: #392D2D;
         margin-bottom: 10px;
+    }
+
+    @media(max-width: 580px) {
+        img {
+            width:90%;
+        }
     }
 `
 
