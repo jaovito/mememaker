@@ -43,7 +43,7 @@ export const Templates = styled.div `
         border: 2px solid transparent;
 
         &.selected {
-        border-color: #4395D8;
+        border-color: #CF5B5B;
     }
 
         img {
@@ -70,14 +70,14 @@ export const Button = styled.button `
     height: 40px;
     border-radius: 8px;
     border: 0;
-    background: #4395D8;
+    background: #CF5B5B;
     color: #FFF;
     font-weight: bold;
-    transition: background 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
     font-size: 14px;
     border: 2px solid transparent;
 
     &:hover {
-        background: #3672A3;
+        opacity: 0.8;
     }
 `
