@@ -8,7 +8,7 @@ Este projeto utiliza o [Create React App](https://github.com/facebook/create-rea
 
 Você precisará ter apenas o [NodeJS](https://nodejs.org) instalado na sua máquina, e após isso, clonar este repositório:
 ```sh
-  $ git clone https://github.com/maateusilva/mememaker.git
+  $ git clone https://github.com/jaovito/mememaker
 ```
 
 Depois disso acesse a pasta do projeto e instale as dependências executando o seguinte comando:
