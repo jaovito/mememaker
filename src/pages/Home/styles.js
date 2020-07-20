@@ -49,6 +49,14 @@ export const Templates = styled.div `
         background: transparent;
         margin-right: 10px;
         border: 2px solid transparent;
+        transition: 400ms;
+
+        img {
+            width: 53px;
+            height: 53px;
+            transition: 250ms ease-in;
+            
+        }
 
         &.selected {
         border-color: #CF5B5B;
@@ -63,10 +71,6 @@ export const Templates = styled.div `
         }
     }
 
-        img {
-            width: 53px;
-            height: 53px;
-        }
     }
 `
 
