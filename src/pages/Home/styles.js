@@ -36,7 +36,6 @@ export const Card = styled.div `
 
 export const Templates = styled.div `
     width: 100%;
-    height: 90px;
     background: #eee;
     border-radius: 8px;
     overflow-y: auto;
@@ -53,6 +52,15 @@ export const Templates = styled.div `
 
         &.selected {
         border-color: #CF5B5B;
+        border-radius: 10px;
+        background: #CF5B5B;
+        
+        > img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+
+        }
     }
 
         img {
